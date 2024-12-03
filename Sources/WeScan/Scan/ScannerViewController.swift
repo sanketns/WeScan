@@ -98,7 +98,7 @@ public final class ScannerViewController: UIViewController {
         
     }
 
-    @objc func appMovedToForeground() {// Restarting detecting when entering in foreground
+    @objc func appMovedToForeground() {// Restarting detecting when entering in foreground//testing...
 //        if captureSessionManager?.isDetecting == false{
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
             self.captureSessionManager?.start()
